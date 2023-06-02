@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container > img{
+    display: block;
+    border-radius: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    filter: brightness(50%);
+    overflow: visible;
+    
+}
+
+.container > h1 {
+    position: relative;
+    color:white;
+    top: -20rem;
+    left: -15rem;
+}
+
+.box {
+    text-align: left;
+    padding:0 10rem 0 10rem;
+    top: -19rem;
+    left: -6rem;
+}
+
+h1 + p {
+    position: relative;
+    color:black;
+    color: white;
+}
+
+.banner {
+    overflow-wrap: break-word;
+}
+
+.container {
+    margin:0 20rem 0rem 20rem;
+    height: 470px;
+        position: relative;
+        text-align: center;
+        color: white;
+        overflow-wrap: break-word;
+}
+
+#logo {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#footerimg {
+    display: block;
+    width: 5%;
+    height: auto;
+    margin-right: auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: gray;
+    margin: 1rem 9rem 1rem 9rem;
+    border-radius: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+li a:hover {
+    color: pink;
+}
+
+section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+article{
+    flex: 1;
+}
+
+.containers img{
+    border-radius: 1rem;
+    max-width: 20rem;
+    max-height: auto;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+.containers button {
+    text-align: left;
+}
+.containers {
+    background-color: gray;
+    border-radius: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.containers p {
+    text-align: left;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+.containers h2 {
+    text-align: left;
+    color: aliceblue;
+}
+
+.containers ul {
+    list-style: none;
+    color: aliceblue;
+}
+
+footer {
+    display: flex;
+    margin: 0 2rem 0 2rem;
+}
+
+@media (max-width: 800px) {
+    section {
+      flex-direction: column;
+    }
+  }
