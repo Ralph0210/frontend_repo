@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        const handleClick = () => console.log("hell")
+    </script>
+</head>
+<body>
+    <form method="post">
+        <input type="text" id="fname" name="fname" required minlength="2" maxlength="35" />
+        <label for="fname">First name: </label>
+<input type="button" value="Click Me" onclick="handleClick()" /> 
+
+<input type="checkbox" id="cat" name="cat" value="cat" onchange="console.log('cat')"/>
+<label for="cat">Cat</label>
+
+<input type="radio" id="light" name="theme" value="light" />
+<label for="light">light</label>
+<input type="radio" id="dark" name="theme" value="dark" />
+<label for="dark">dark</label>
+<input type="range" id="volume" name="volume" min="0" max="10" onchange="console.log(value)" />
+<input type="reset"/>
+<input type="submit" value="submit" />
+</form>
+</body>
