@@ -1,8 +1,8 @@
-
+import { ReactComponent as Logo } from "./images/Logo.svg"
 function Footer() {
     return(
         <footer>
-            <img src={require('./images/Mario and Adrian A.jpg')} />
+            <Logo/>
             <ul >
                 <li>Doormat Navigtaion</li>
                 <li>Home</li>

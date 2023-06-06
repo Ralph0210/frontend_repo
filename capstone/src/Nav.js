@@ -1,7 +1,8 @@
+import { ReactComponent as Logo } from "./images/Logo.svg"
 function Nav() {
     return(
         <nav>
-            <img src="../public/logo.svg" alt="logo"/>
+            <Logo/>
             <ul>
                 <li>Home</li>
                 <li>About</li>
