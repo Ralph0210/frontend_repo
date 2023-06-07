@@ -1,9 +1,10 @@
 import { ReactComponent as Logo } from "./images/Logo.svg"
+import "./Header.css"
 function Footer() {
     return(
         <footer>
-            <Logo/>
-            <ul >
+            <Logo className="logo"/>
+            <ul className="navigation">
                 <li>Doormat Navigtaion</li>
                 <li>Home</li>
                 <li>About</li>
@@ -12,14 +13,17 @@ function Footer() {
                 <li>Order Online</li>
                 <li>Login</li>
             </ul>
-            <ul>
+            <ul className="contact">
                 <li>Contact</li>
                 <li>Address</li>
                 <li>Phone Number</li>
                 <li>Email</li>
             </ul>
-            <ul>
+            <ul className="socialMediaLinks">
                 <li>Social Media Links</li>
+                <li>Address</li>
+                <li>Phone Number</li>
+                <li>Email</li>
             </ul>
         </footer>
     )
