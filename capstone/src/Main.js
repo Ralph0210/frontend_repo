@@ -16,7 +16,7 @@ function Main() {
                     <button className="reservation_button">Reserve a Table</button>
                 </div>
                 <div className="right_container">
-                    <img src={Hero} alt="restaurant food"/>
+                    {/* <img src={Hero} alt="restaurant food"/> */}
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ function Main() {
 
                 <div className='menu'>
                     <div className='card'>
-                        <img src={Greek_Salad} alt='greek salad'/>
+                        {/* <img src={Greek_Salad} alt='greek salad'/> */}
                         <div className='card_content'>
                             <div className='name_price'>
                                 <div className='name_box'>
@@ -49,7 +49,7 @@ function Main() {
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={Bruchetta} alt='bruchetta'></img>
+                        {/* <img src={Bruchetta} alt='bruchetta'></img> */}
                         <div className='card_content'>
                         <div className='name_price'>
                                 <div className='name_box'>

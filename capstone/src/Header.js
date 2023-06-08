@@ -4,9 +4,9 @@ import './Header.css';
 function Header() {
     return(
         <header>
-            <Logo className='logo' style={{flexShrink: 0, marginRight:"45px"}}/>
+            <Logo className='logo'/>
             <nav>
-                <ul>
+                <ul className="nav_list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Menu</a></li>
