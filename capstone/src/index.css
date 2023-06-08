@@ -34,22 +34,14 @@ header {
   display: flex;
   gap: 4.5rem;
   flex-wrap: wrap;
-}
-
-nav {
-  flex: 1;
-  display: flex;
   align-items: center;
 }
 
 .nav_list {
   display: flex;
+  flex-wrap: wrap;
   flex-shrink: 0;
   list-style: none;
   align-items: center;
   gap: 2.8rem;
-}
-
-nav li {
-  flex: 1 0 1;
 }
