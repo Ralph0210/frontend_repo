@@ -259,3 +259,23 @@ nav li a {
   object-fit: contain;
   z-index: 999;
 }
+
+footer {
+  background-color: gray;
+  padding: 6rem 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  flex: 1;
+  list-style: none;
+  font-size: 2rem;
+  font-family: "Karla";
+  justify-content: space-between;
+}
+
+footer ul > li:first-child {
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
