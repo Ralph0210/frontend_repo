@@ -8,16 +8,12 @@ function Main() {
         <main>
             <div className="hero_container">
                 <div className="left_container">
-                    <div className='restaurant_title'>
-                        <h2 className="restaurant_name">Little Lemon</h2>
-                        <p className="restaurant_location">Chicago</p>
-                    </div>
-                    <article className="restaurant_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</article>
-                    <button className="reservation_button">Reserve a Table</button>
+                        <h2>Little Lemon</h2>
+                        <h3>Chicago</h3>
+                    <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</article>
+                    <button>Reserve a Table</button>
                 </div>
-                <div className="right_container">
-                    {/* <img src={Hero} alt="restaurant food"/> */}
-                </div>
+                    <img src={Hero} alt="restaurant food"/>
             </div>
 
             <div className='specials'>
@@ -87,6 +83,26 @@ function Main() {
                         </div>
                     </div>
                 </div>
+
+                <div className='restaurant_background'>
+                    <div className='left_box'>
+                        <h2>Little Lemon</h2>
+                        <p>Chicago</p>
+                        <article>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </article>
+                    </div>
+
+                    <div className='right_box'>
+                        <img></img>
+                        <img></img>
+                    </div>
+                </div>
+
+
+
+
+
+
             </div>
         </main>
     )

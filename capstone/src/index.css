@@ -8,6 +8,7 @@ html {
 
 :root {
   --green: #495e57;
+  --karla_regular: 'Karla', sans-serif;
 }
 
 body {
@@ -27,10 +28,8 @@ code {
 }
 
 header {
-  margin-top: 0.2rem;
-  border: 2px solid salmon;
   width: 62%;
-  margin: auto;
+  margin: 2rem auto 2.4rem;
   display: flex;
   gap: 4.5rem;
   flex-wrap: wrap;
@@ -45,3 +44,73 @@ header {
   align-items: center;
   gap: 2.8rem;
 }
+
+nav li {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--karla_regular);
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.hero_container {
+  width: 100%;
+  background-color: var(--green);
+  display: flex;
+  position: relative
+}
+
+.hero_container * {
+  color: white;
+}
+
+.left_container {
+  width: 29%;
+  padding-left: 20%;
+  padding-top: 4.7rem;
+  padding-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left_container h2{
+  font-family: 'Roboto';
+  font-size: 5.6rem;
+}
+
+.left_container h3 {
+  font-size: 3.2rem;
+  font-family: 'Markazi Text';
+  margin-bottom: 1.5rem;
+}
+
+.left_container article {
+  font-size: 2rem;
+  margin-bottom: 7.2rem;
+}
+
+.left_container button {
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+  padding: 1.9rem 2.5rem;
+  align-self: flex-start;
+  border-radius: 0.5rem;
+}
+
+.hero_container img{
+  max-width: 26%;
+  max-height: 80%;
+  object-fit: cover;
+  margin: 2.3rem 20% 2.3rem 6.3rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.specials {
+  
+}
+
+
