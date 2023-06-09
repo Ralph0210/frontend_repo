@@ -2,6 +2,8 @@ import Hero from './images/restauranfood.jpg'
 import Greek_Salad from './images/greek salad.jpg'
 import Bruchetta from "./images/bruschetta-2.jpg"
 import Lemon_Dessert from './images/lemon dessert.jpg'
+import A from "./images/Mario and Adrian A.jpg"
+import B from "./images/Mario and Adrian b.jpg"
 
 function Main() {
     return(
@@ -92,8 +94,8 @@ Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit 
                     </div>
 
                     <div className='right_box'>
-                        <img></img>
-                        <img></img>
+                        <img src={A} className='image_A'></img>
+                        <img src={B} className='image_B'></img>
                     </div>
                 </div>
         </main>

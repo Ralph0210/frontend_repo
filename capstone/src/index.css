@@ -110,13 +110,11 @@ nav li a {
   margin: 0 20% 8rem;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
   height: 56rem;
 }
 
 .title_menu {
   display: flex;
-  border: 1px solid red;
   justify-self: unset;
   align-items: center;
   justify-content: center;
@@ -144,12 +142,12 @@ nav li a {
 
 .card {
   flex: 1;
-  border: 1px solid blueviolet;
   border-radius: 5rem;
   overflow: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  border: 0.1em solid gray;
 }
 
 .menu_image {
@@ -200,3 +198,64 @@ nav li a {
   font-weight: 700;
 }
 
+.restaurant_background {
+  margin: 0 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.9rem;
+  margin-bottom: 3.6em;
+}
+
+.left_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 37rem;
+}
+
+.left_box h2 {
+  font-family: "Markazi Text";
+  font-size: 6.4em;
+}
+
+.left_box p {
+  font-family: "Markazi Text";
+  font-size: 4em;
+  margin-bottom: 4rem;
+}
+
+.left_box article{
+  font-family: "Karla";
+  font-size: 2rem;
+}
+
+.right_box {
+  flex: 1 0 1;
+  max-width: 45rem;
+  display: grid;
+  grid-template-areas: 
+  'one two'
+  'four five';
+}
+
+.right_box img {
+  border-radius: 3rem;
+}
+
+.image_A {
+  grid-area: two;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 34rem;
+  object-fit: contain;
+  align-self: flex-end;
+}
+
+.image_B {
+  grid-area: four;
+  overflow: hidden;
+  max-width: 150%;
+  max-height: 34rem;
+  object-fit: contain;
+  z-index: 999;
+}
