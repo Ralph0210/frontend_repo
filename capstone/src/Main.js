@@ -18,20 +18,18 @@ function Main() {
 
             <div className='specials'>
                 <div className='title_menu'>
-                    <div className='title_box'>
-                        <h2>Specials</h2>
-                    </div>
+                    <h2>Specials</h2>
                     <button className='online_menu'>Online Menu</button>
                 </div>
 
                 <div className='menu'>
                     <div className='card'>
-                        {/* <img src={Greek_Salad} alt='greek salad'/> */}
+                        <div className='menu_image'>
+                            <img src={Greek_Salad} alt='greek salad'/>
+                        </div>
                         <div className='card_content'>
                             <div className='name_price'>
-                                <div className='name_box'>
-                                    <p>Greek salad</p>
-                                </div>
+                                <h2>Greek salad</h2>
                                 <p className='price'>$12.99</p>
                             </div>
 
@@ -45,12 +43,12 @@ function Main() {
                         </div>
                     </div>
                     <div className='card'>
-                        {/* <img src={Bruchetta} alt='bruchetta'></img> */}
+                    <div className='menu_image'>
+                        <img src={Bruchetta} alt='bruchetta'></img>
+                    </div>
                         <div className='card_content'>
                         <div className='name_price'>
-                                <div className='name_box'>
-                                    <p>Bruchetta</p>
-                                </div>
+                                <h2>Bruchetta</h2>
                                 <p className='price'>$5.99</p>
                             </div>
 
@@ -64,12 +62,12 @@ function Main() {
                         </div>
                     </div>
                     <div className='card'>
+                    <div className='menu_image'>
                         <img src={Lemon_Dessert} alt='lemon dessert'/>
+                      </div>
                         <div className='card_content'>
                         <div className='name_price'>
-                                <div className='name_box'>
-                                    <p>Lemon Dessert</p>
-                                </div>
+                                <h2>Lemon Dessert</h2>
                                 <p className='price'>$5.00</p>
                             </div>
 
@@ -83,8 +81,9 @@ function Main() {
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div className='restaurant_background'>
+            <div className='restaurant_background'>
                     <div className='left_box'>
                         <h2>Little Lemon</h2>
                         <p>Chicago</p>
@@ -97,13 +96,6 @@ Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit 
                         <img></img>
                     </div>
                 </div>
-
-
-
-
-
-
-            </div>
         </main>
     )
 }
